@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinder Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body {
+            background-image: url('img/68261c08-1828-4843-8e6f-24f92ec603c9.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ff790c;
+        }
+        header {
+            background-color: #031bf7;
+            color: #10db5e;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #db14cb;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: rgb(228, 231, 26);
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: rgb(23, 209, 54);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: rgb(95, 23, 177);
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #4fac33;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #333;
+            color: rgb(99, 20, 20);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #3f24a3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sepaase SDA Pathfinder Club!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Sepaase SDA Church Pathfinder Club(DOVES OF HOPE) Explore our activities, events, and more.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our Pathfinder Club is dedicated to teaching young people valuable life skills, leadership, and outdoor activities. Join us on our journey!</p>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Camping Trip - March 15</li>
+                <li>Community Service - April 10</li>
+                <li>Pathfinder Fair - May 5</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out photos from our recent adventures!</p>
+            <img src="img/10058dee-0514-40e9-bc72-aef56b8df383.jpeg" alt="Pathfinder Event 1" style="width:100%;max-width:300px;">
+            <img src="img/68261c08-1828-4843-8e6f-24f92ec603c9.jpg" alt="Pathfinder Event 2" style="width:100%;max-width:300px;">
+            <img src="img/3130885535_9c3a4e4dc4_o.jpg" alt="Pathfinder Event 3" style="width:100%;max-width:300px;">
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sepaase SDA Pathfinder Club. All rights reserved.</p>
+    </footer>
+</body>
+</html>
